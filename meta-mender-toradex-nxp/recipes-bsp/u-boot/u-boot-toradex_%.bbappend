@@ -22,3 +22,7 @@ SRC_URI_append_mender-uboot = " \
 SRC_URI_append_mender-uboot_colibri-imx7 = " \
     file://0001-colibri-imx7-mender-manual-U-boot-integration.patch \
 "
+
+SRC_URI_append_mender-uboot_apalis-imx8 = " \
+    file://0001-configs-toradex-board-specific-mender-integration.patch \
+"
